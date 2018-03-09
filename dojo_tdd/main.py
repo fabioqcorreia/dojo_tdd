@@ -49,4 +49,7 @@ class Calculator():
         :param value:
         :return:
         """
-        return math.sqrt(value)
+        return self.__sqrt(value)
+
+    def __sqrt(self, x):
+        return x ** (1 / 2)

@@ -1,6 +1,7 @@
 import unittest
 from dojo_tdd.main import Calculator
 
+
 class UnitTest(unittest.TestCase):
     """
     Os testes devem começar com "test_".
@@ -13,7 +14,6 @@ class UnitTest(unittest.TestCase):
         pass
 
     def test_can_sum_two_integers(self):
-
         # Act
         response = self.calculator.sum(1, 1)
 
@@ -21,9 +21,8 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(2, response)
 
     def test_can_subtract_two_integers(self):
-
         # Act
-        response = self.calculator.subtract(2,1)
+        response = self.calculator.subtract(2, 1)
 
         # Assert
         self.assertEqual(1, response)
@@ -43,7 +42,6 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(1, response)
 
     def test_can_div_by_zero(self):
-
         # Assert
         with self.assertRaises(ZeroDivisionError):
             self.calculator.div(2, 0)

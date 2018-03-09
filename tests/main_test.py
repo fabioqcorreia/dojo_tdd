@@ -52,3 +52,31 @@ class UnitTest(unittest.TestCase):
 
         # Assert
         self.assertEqual(2, response)
+
+    def test_can_sum_any_numbers_integers(self):
+        # Act
+        response = self.calculator.sum(1,2,3,4,5,6)
+
+        # Assert
+        self.assertEqual(21, response)
+
+    def test_can_sum_any_numbers_positive_and_negative(self):
+        # Act
+        response = self.calculator.sum(1,-2,3,-4,5,-6)
+
+        # Assert
+        self.assertEqual(-3, response)
+
+    def test_can_sum_decimals(self):
+        # Act
+        response = self.calculator.sum(1.0,2.5)
+
+        # Assert
+        self.assertEqual(3.5, response)
+
+    def test_can_sum_any_decimals_positive_and_negative(self):
+        # Act
+        response = self.calculator.sum(1,-2,3,-4,5,-6)
+
+        # Assert
+        self.assertEqual(-3, response)

@@ -6,14 +6,18 @@ class Calculator():
         Calculator
     """
 
-    def sum(self, first_value, second_value):
+    def sum(self, *args):
         """
         Sum method
-        :param first_value:
-        :param second_value:
+        :param args:
         :return:
         """
-        return first_value + second_value
+        result = 0
+
+        for element in args:
+            result += element
+
+        return result
 
     def subtract(self, first_value, second_value):
         """

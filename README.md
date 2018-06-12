@@ -24,13 +24,3 @@ Em construção...
 ## Sugestões técnicas do treinamento
 
 Em construção...
-
-## Contato DevOps Team
-
-|      Nome      |               Email                |
-|----------------|------------------------------------|
-| Fernando Fish  | fernando.fish@accenture.com        |
-| Fábio Correia  | fabio.correia@accenture.com        |
-| Ikaro Santos   | ikaro.f.santos@accenture.com       |
-| Mônica Padilha | monica.maria.padilha@accenture.com |
-| Júlio Melo     | julio.alexandre.melo@accenture.com |
